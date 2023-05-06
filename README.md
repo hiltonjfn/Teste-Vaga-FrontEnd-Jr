@@ -8,5 +8,6 @@ Link: https://teste-vaga-frontend-jr.netlify.app/
 
 ## Recursos usados
 
-- react-snap-carousel
+- react-snap-carousel 
+
 Link: https://www.npmjs.com/package/react-snap-carousel
