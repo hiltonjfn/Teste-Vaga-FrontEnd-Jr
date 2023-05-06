@@ -16,4 +16,4 @@ Link: https://teste-vaga-frontend-jr.netlify.app/
 
 ## Importante!
 
-Para respeitar o Layout pixel a pixel, tamanho das fontes o projeto acabou não sendo responsivo para tela de celulares.
+Para respeitar o Layout pixel a pixel e tamanho das fontes o projeto acabou não sendo responsivo para tela de celulares.
