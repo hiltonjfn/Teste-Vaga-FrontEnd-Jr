@@ -1,0 +1,29 @@
+@import '../../index.scss';
+
+.marcas {
+    height: 400px;
+
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 45px;
+        color: $cor-primaria;
+
+    }
+}
+
+.circulo {
+    margin: 0px 15px 0px 15px;
+    height: 211px;
+    width: 211px;
+    border-radius: 100px;
+    background: $cor-secundaria;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.13);
+    background-image: url('../../assent/Logo.png');
+    background-size: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

@@ -1,0 +1,136 @@
+@import '../../index.scss';
+.botaoRolagem>button:nth-child(1) {
+    left: 20px;
+    position: absolute;
+    margin-top: -290px;
+}
+
+.botaoRolagem>button:nth-child(2) {
+    right: 20px;
+    position: absolute;
+    margin-top: -290px;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card{
+    margin: 1px 20px 1px 1px;
+    height: 500px;
+    width: 270px;
+    border-radius: 0px;
+    background: $cor-secundaria;
+    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+}
+
+
+.imgCard {
+    margin-top: 30px;
+    width: 80%;
+}
+
+.TxtCard {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3F3F40;
+
+
+}
+
+.PrecoCard {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+    color: #808080;
+    position: absolute;
+    left: 20px;
+}
+
+
+
+.PrecoCardPromo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3F3F40;
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+    
+}
+
+.parcela {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3F3F40;
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+}
+
+.frete {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: $cor-primaria;
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+
+}
+
+.butaoComprar {
+    height: 44px;
+    width: 245px;
+    border-radius: 4px;
+    border: none;
+    background: $cor-primaria;
+    border-radius: 4px;
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+    z-index: 2;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $cor-secundaria;
+}
+
+.botao{
+    position: absolute;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.24) 10%, #ffffff00 95.04%), url('../../assent/seta.png');
+    border-radius: 20px;
+    box-shadow: -26px 97px 41px -3px rgb(255, 255, 255);
+    background-color: #ffffffd7;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 455px;
+    border: none;
+}
+.e{left: -7.5%;width: 8%;}
+.d{right: -6.5%; width: 7%;transform: scaleX(-1);}

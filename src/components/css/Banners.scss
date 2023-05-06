@@ -1,0 +1,80 @@
+@import '../../index.scss';
+
+.BannersContainer {
+    position: relative;
+    width: 100%;
+    height: 384px;
+    margin: 50px 0px 50px 0px;
+
+    div {
+        position: absolute;
+        display: inline-block;
+        background-image: url('../../assent/parceiros.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: rgba(255, 255, 255, 1);
+        width: 574px;
+        height: 350px;
+        border-radius: 20px 20px 20px 20px;
+        margin: 5px 0px 0px 0px;
+
+        h1 {
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 60px;
+            color: $cor-secundaria;
+        }
+
+        p {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $cor-secundaria;
+
+        }
+
+        button {
+            position: absolute;
+            top: 80%;
+            left: 10%;
+            width: 131px;
+            height: 48px;
+            border: none;
+            background: $cor-primaria;
+            border-radius: 10px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: $cor-secundaria;
+
+        }
+    }
+}
+
+.BannersContainer>div:nth-child(1) {
+    left: 0px;
+}
+
+.BannersContainer>div:nth-child(2) {
+    right: 0px;
+}
+.bc-2 > div{
+    width: 589.73px;
+    height: 284px;
+}

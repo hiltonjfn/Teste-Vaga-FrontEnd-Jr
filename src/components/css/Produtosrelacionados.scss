@@ -1,0 +1,97 @@
+@import '../../index.scss';
+
+.Produtos_relacionados_Css {
+    position: relative;
+
+    hr {
+        margin-top: 39;
+        display: inline-block;
+        width: 22%;
+    }
+    h1 {
+        margin-top: 39;
+        display: inline-block;
+        margin: 0px 4% 0px 4%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 45px;
+        color: $cor-primaria;
+    }
+}
+
+.caixa_relacionados {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+
+    div{
+        display: inline-block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 0px;
+        gap: 10px;
+        width: 211.5px;
+        height: 40px;
+        background: $cor-secundaria;
+        border: 1px solid #BDBDBD;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        margin: 0px -1px;
+        width: 70px;
+        height: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+.caixa_relacionadosNoSelect {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #3B3B3B;
+    transition: 0.5s;
+}
+
+.caixa_relacionadosNoSelect:hover {
+    transition: 0.5s;
+    color: $cor-primaria;
+}
+
+.caixa_relacionadosSelect {
+    text-decoration: none;
+    width: 70px;
+    height: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    color: $cor-primaria;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.VerTodos {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: $cor-primaria;
+
+}

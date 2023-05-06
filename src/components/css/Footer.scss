@@ -1,0 +1,177 @@
+@import '../../index.scss';
+.col-2 {
+    position: relative;
+    width: 20%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.conteinterFooter {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 325px;
+    border-radius: 0px;
+}
+
+.footerTitulos {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footerTxt {
+    text-align: initial;
+}
+
+.footerTxt>a {
+    position: relative;
+    left: 20px;
+    top: 40px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: $cor-secundaria;
+}
+.footerTxt>a> img{
+    position: relative;
+    margin-right: 40px;
+    top: 80px;
+  
+    transition: 1s;
+}
+.footerTxt>a> img:hover{
+    transform: scale(1.3);
+    transition: 1s;
+
+}
+
+.footerImg {
+    text-align: initial;
+}
+
+.footerImg>img {
+    position: relative;
+    top: 40px;
+    display: inline-block;
+    width: 40px;
+    margin: 15px;
+}
+
+.BoxCadastroFooter {
+    position: absolute;
+    background: $cor-secundaria;
+    height: 260px;
+    width: 380px;
+    border-radius: 10px;
+    top: 20px;
+    right: 50px;
+    padding: 10px;
+
+}
+
+.BoxCadastroFooter>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #3F3F40;
+
+}
+
+.BoxCadastroFooter>h1>span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #3F3F40;
+
+}
+
+.BoxCadastroFooter>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    color: #3F3F40;
+}
+
+.BoxCadastroFooter>input {
+    background: $cor-secundaria;
+    border: 1px solid #2A2A2A;
+    border-radius: 4px;
+    height: 43px;
+    width: 230px;
+    border-radius: 4px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C0C0C0;
+
+}
+
+.BoxCadastroFooter>button {
+    border: none;
+    background: $cor-primaria;
+    border-radius: 4px;
+    height: 45px;
+    width: 62px;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: $cor-secundaria;
+
+
+
+}
+
+.Copyright {
+    padding-top: 10px;
+    border-top: 1px solid #F0F0F0;
+    background: #2A2A2A;
+    display: flex;
+    height: 50px;
+
+}
+
+.Copyright>p {
+    position: absolute;
+    left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: $cor-secundaria;
+}
+.Copyright > .col-4{
+    position: absolute;
+    right: 5px;
+}
+.Copyright > .col-4 > img{
+    margin: 0px 20px;
+}
