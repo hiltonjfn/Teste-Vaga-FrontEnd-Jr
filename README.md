@@ -1,8 +1,8 @@
-#Teste Econverse: Vaga Desenvolvedor Front-End Jr
+# Teste Econverse: Vaga Desenvolvedor Front-End Jr
 
 Link: https://teste-vaga-frontend-jr.netlify.app/
 
-##Instalação
+## Instalação
 
 - npm install
 
