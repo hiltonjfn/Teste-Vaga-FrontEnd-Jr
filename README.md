@@ -1,5 +1,7 @@
 # Teste Econverse: Vaga Desenvolvedor Front-End Jr
 
+Para facilitar a visualização, o projeto foi postado no Netlify
+
 Link: https://teste-vaga-frontend-jr.netlify.app/
 
 ## Instalação
