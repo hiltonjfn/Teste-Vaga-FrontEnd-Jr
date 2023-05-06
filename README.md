@@ -13,3 +13,7 @@ Link: https://teste-vaga-frontend-jr.netlify.app/
 - SCSS: https://sass-lang.com/
 
 - react-snap-carousel: https://www.npmjs.com/package/react-snap-carousel
+
+## Importante!
+
+Para respeitar o Layout pixel a pixel, tamanho das fontes o projeto acabou não sendo responsivo para tela de celulares.
